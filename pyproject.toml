@@ -7,7 +7,9 @@ authors = [
     { name = "CheVanThao", email = "chevanthao96@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "duckdb>=2.0.0",
+]
 
 [project.scripts]
 data-engineer-journey = "data_engineer_journey:main"
